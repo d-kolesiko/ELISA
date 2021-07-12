@@ -8,12 +8,20 @@ SARS-CoV-2 Nucleocapsid protein (NP) is a common antigen for ELISA. NP specially
 General structure of raw data (all samples were tested in triplicates)
 
 1,2,3
+
 OD 1:25600 pure NP
+
 OD 1:6400 pure NP
+
 OD 1:1600 pure NP
+
 OD 1:400 pure NP
+
 OD 1:25600 NP-RNA
+
 OD 1:6400 NP-RNA
+
 OD 1:1600 NP-RNA
+
 OD 1:400 NP-RNA
 
