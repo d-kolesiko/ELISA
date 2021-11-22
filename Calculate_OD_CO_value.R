@@ -6,11 +6,9 @@ serum_vec <- c()
 
 for (i in dir(pattern = ".csv")) {
   S<-read.csv(i)
-  for (j in c(1:8)){
-    serum_mean <- mean(as.numeric(S[j,1:3]), trim = 2)
-    serum_sd <- round(sd(as.numeric(S[j,1:3])), digits = 2)
-    serum_vec <- c(serum_vec,serum_mean, serum_sd)
-  }
+  serum_mean <- apply(S, 1, mean, trim = 2)
+  serum_sd <- round(apply(S, 1, sd), digits = 2)
+  serum_vec <- c(serum_vec,serum_mean, serum_sd)
   main_df <- rbind(main_df, serum_vec)
   serum_vec <- c()
 }
