@@ -1,6 +1,7 @@
 # ELISA
 The enzyme-linked immunosorbent assay data analysis and visualization
 
+Kolesov DE, Sinegubova MV, Safenkova IV, Vorobiev II, Orlova NA. Antigenic properties of the SARS-CoV-2 nucleoprotein are altered by the RNA admixture. PeerJ. 2022 Jan 7;10:e12751. doi: 10.7717/peerj.12751. PMID: 35036106; PMCID: PMC8744485.
 
 
 ### General information
